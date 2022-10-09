@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(13, 25, 43);
+  background-color: #0d192b;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -21,7 +21,7 @@ body {
 .card {
   height: 82%;
   width: 100%;
-  background-color: hsl(215, 32%, 27%);
+  background-color: #14253d;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,6 +29,8 @@ body {
   padding: 20px;
   text-align: center;
   border-radius: 10px;
+  box-shadow: 0px 0px 14px 18px #0000005b
+  
 }
 
 .content-1 {
@@ -48,7 +50,7 @@ body {
   text-align: left;
   line-height: 20px;
   margin-bottom: 15px;
-  color: #888888;
+  color: #8bacda;
 }
 
 .content-1 .icons {
@@ -66,7 +68,7 @@ body {
 }
 
 .clock p {
-  color: #888888;
+  color: #8bacda;
 }
 
 .icons .clock {
@@ -96,6 +98,11 @@ footer {
 }
 
 .aaa p {
+    color: #8bacda;
+}
+
+.aaa a {
+    text-decoration: none;
     color: #ffffff;
 }
 
