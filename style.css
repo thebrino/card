@@ -1,0 +1,107 @@
+body {
+  background-color: rgb(13, 25, 43);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  height: 600px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  height: 82%;
+  width: 100%;
+  background-color: hsl(215, 32%, 27%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.content-1 {
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 1px #ffffff7c;
+}
+
+.content-1 h1 {
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.content-1 p {
+  text-align: left;
+  line-height: 20px;
+  margin-bottom: 15px;
+  color: #888888;
+}
+
+.content-1 .icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons .eth {
+  display: flex;
+  gap: 10px;
+}
+
+.eth p {
+  color: hsl(178, 100%, 50%);
+}
+
+.clock p {
+  color: #888888;
+}
+
+.icons .clock {
+  display: flex;
+  gap: 10px;
+}
+
+.card .content-1 img {
+  margin-bottom: 15px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    text-align: left;
+}
+
+.container .aaa {
+  margin-top: 15px;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.aaa p {
+    color: #ffffff;
+}
+
+.container footer img {
+  display: flex;
+  width: 32px;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+}
