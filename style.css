@@ -7,6 +7,7 @@ body {
   position: relative;
   width: 100%;
   height: 100vh;
+  font-family: "Outfit", sans-serif;
 }
 
 .container {
@@ -16,6 +17,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: "Outfit", sans-serif;
 }
 
 .card {
@@ -29,8 +31,9 @@ body {
   padding: 20px;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 0px 0px 14px 18px #0000005b
-  
+  box-shadow: 0px 0px 2.5px rgba(0, 0, 0, 0.157),
+    0px 0px 6.4px rgba(0, 0, 0, 0.214), 0px 0px 13.1px rgba(0, 0, 0, 0.259),
+    0px 0px 27px rgba(0, 0, 0, 0.329), 0px 0px 74px rgba(0, 0, 0, 0.53);
 }
 
 .content-1 {
@@ -38,6 +41,7 @@ body {
   align-items: center;
   justify-content: center;
   border-bottom: solid 1px #ffffff7c;
+  position: relative;
 }
 
 .content-1 h1 {
@@ -76,18 +80,43 @@ body {
   gap: 10px;
 }
 
-.card .content-1 img {
+.card .content-1 .img {
   margin-bottom: 15px;
   width: 300px;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
+  background-image: url(img/image-equilibrium.jpg);
+  background-size: 300px;
+  background-repeat: no-repeat;
+}
+
+.img svg {
+  width: 300px;
+  height: 300px;
+  opacity: 0;
+}
+
+.img:hover svg {
+  opacity: 1;
+  transition: all 0.2s 0s ease;
+  background-color: rgba(0, 255, 255, 0.452);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card .content-1:hover .img {
+  background-image: url(img/image-equilibrium.jpg);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  opacity: 1;
+  cursor: pointer;
 }
 
 footer {
-    width: 100%;
-    display: flex;
-    text-align: left;
+  width: 100%;
+  display: flex;
+  text-align: left;
 }
 
 .container .aaa {
@@ -98,12 +127,12 @@ footer {
 }
 
 .aaa p {
-    color: #8bacda;
+  color: #8bacda;
 }
 
 .aaa a {
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .container footer img {
